@@ -3,15 +3,13 @@ package com.yurialves.keycloakapiclient.model;
 import lombok.Data;
 import lombok.EqualsAndHashCode;
 
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
-import javax.persistence.Id;
+import javax.persistence.*;
 import java.math.BigDecimal;
 
 @Entity
 @Data
 @EqualsAndHashCode(onlyExplicitlyIncluded = true)
+@Table(name = "TB_CLIENTES")
 public class Clientes {
 
     @Id
@@ -19,6 +17,6 @@ public class Clientes {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private int id;
     private String nome;
-    private BigDecimal salarios;
+    private BigDecimal salario;
     private String email;
 }

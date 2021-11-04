@@ -9,6 +9,6 @@ public class ClientesDTO {
 
     private int id;
     private String nome;
-    private BigDecimal salarios;
+    private BigDecimal salario;
     private String email;
 }
