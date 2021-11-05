@@ -38,15 +38,16 @@
  
  
  5 - Agora vamos precisar configurar um mapper (para mapear os atributos para o JWT token)
- https://github.com/yurileader/assets/blob/master/keycloak/create%20mapper.png
+ ![image](https://user-images.githubusercontent.com/55317378/140446790-4fc7ba81-29a9-4c3f-b9de-91d6a88e84f9.png)
+
  
  Mapeamento do MAPPER TYPE para TOKEN CLAIM NAME
- https://github.com/yurileader/assets/blob/master/keycloak/client%20mapper.png
- 
+ ![image](https://user-images.githubusercontent.com/55317378/140446819-15fcd9f0-c6fc-484d-8419-60b19b0dc326.png)
+
  
 # ComoUsar
  
 Para Autenticação e obtenção do Token vamos utilizar o POSTMAN, e vamos precisar de algumas informações do keycloak acessando as configurações   http://localhost:8180/auth/realms/DESENVOLVIMENTO/.well-known/openid-configuration 
  
- https://raw.githubusercontent.com/yurileader/assets/master/keycloak/Anima%C3%A7%C3%A3o.gif
+ ![Autorizando Postman](https://github.com/yurileader/assets/blob/master/keycloak/Anima%C3%A7%C3%A3o.gif)
  
